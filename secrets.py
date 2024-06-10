@@ -11,5 +11,5 @@ DB_URI = os.environ.get("DATABASE_URL")
 SUDO_USERS = [
     5086819565
 ]
-SUDO = filters.user(SUDO_USERS)
+SUDO = filters.User(SUDO_USERS)
 LOG_CHAT = -1002154467227

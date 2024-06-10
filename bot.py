@@ -1,7 +1,8 @@
 from telegram.ext import PicklePersistence, Updater
 from secrets import BOT_TOKEN
+
 p = PicklePersistence(
-    filename="data"
+    path="data"
 )
 updater = Updater(
     BOT_TOKEN,

@@ -11,7 +11,6 @@ updater = Updater(
 )
 dp = updater.dispatcher
 
-
 def main():
     import sys
     import os
